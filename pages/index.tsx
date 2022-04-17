@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="page">
       <head>
-        <title>Hello World - Aleph.js</title>
+        <title>Treyni</title>
         <link rel="stylesheet" href="../style/index.css" />
       </head>
       <p className="logo"><Logo /></p>
