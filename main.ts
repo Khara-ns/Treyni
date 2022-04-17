@@ -1,7 +1,9 @@
-type ShellCmd = {
-    command: string;
-    attributes: string[];
-  }
+//type ShellCmd = {
+    //command: string;
+    //attributes: string[];
+    //imagecmd: string;
+   // idcmd: int;
+ // }
   
   import data from "./data.json" assert { type: "json" };
 
