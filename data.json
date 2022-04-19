@@ -1,5 +1,6 @@
 [
-{"command":"figlet","attributes":["test"],"imagecmd":"./images/ls.png","idcmd":1},
-{"command":"ls","attributes":["-la"],"imagecmd":"./images/ls.png","idcmd":2},
-{"command":"grep","attributes":["-r","/tmp"],"imagecmd":"./images/grep.png","idcmd":3}
+{"command":"figlet","attributes":["test"],"imagecmd":"./images/ls.png","idcmd":0},
+{"command":"steam-runtime","attributes":[" "],"imagecmd":"./images/ls.png","idcmd":1},
+{"command":"grep","attributes":["-r","/tmp"],"imagecmd":"./images/grep.png","idcmd":2},
+{"command":"firefox","attributes":[" "],"imagecmd":"./images/grep.png","idcmd":3}
 ]

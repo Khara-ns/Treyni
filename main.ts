@@ -10,10 +10,7 @@ const data = JSON.parse(Deno.readTextFileSync('./data.json'))
 
 //Le xv yv et zv change selon sur quoi le type clique dans l'interface
 
-const xv = 1;
-const yv = 1;
-const zv = 0;
-const p=Deno.run({ cmd: [data[xv].command , data[yv].attributes[zv]] });
+const p=Deno.run({ cmd: [data[1].command , data[1].attributes[0]] });
 console.log(data);
 export async function lanceur(){
 
