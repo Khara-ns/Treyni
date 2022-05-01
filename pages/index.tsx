@@ -14,28 +14,17 @@ export default function Home() {
         <link rel="stylesheet" href="../style/index.css" />
       </head>
       <p className="logo"><Logo /></p>
-      <h1>Welcome to use <strong>Aleph.js</strong>!</h1>
+      <h1>Bienvenue sur le menu <strong>Treyni</strong>!</h1>
       <p className="links">
         <a href="/steam" target="_blank">Steam</a>
         <span></span>
         <a href="/firefox" target="_blank">Firefox</a>
         <span></span>
-        <a href="https://alephjs.org/docs" target="_blank">Docs</a>
+        <a href="https://alephjs.org/docs" target="_blank">Discord</a>
         <span></span>
         <a href="./commande1.tsx" target="_blank">Github</a>
       </p>
-      <div className="counter">
-        <span>Counter:</span>
-        {isSyncing && (
-          <em>...</em>
-        )}
-        {!isSyncing && (
-          <strong>{count}</strong>
-        )}
-        <button onClick={decrease}>-</button>
-        <button onClick={increase}>+</button>
-      </div>
-      <p className="copyinfo">Built by Aleph.js in Deno {version}</p>
+      <p className="copyinfo">Construit sur Deno {version}</p>
     </div>
   )
 }
