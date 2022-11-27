@@ -1,5 +1,7 @@
 # Treyni
 ---
+## DISCONTINUED UNTIL DENO HAS BETTER VISUALS POSSIBILITY
+
 ## Goals :
 
     -To be fast and lightweight
